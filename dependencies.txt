@@ -1,0 +1,31 @@
+1. Tensorflow => pip install tensorflow
+2. Pytesseract => pip install pytesseract
+
+
+3. link to install windows tesseract => https://github.com/UB-Mannheim/tesseract/wiki
+  ( I assume that your windows OS is 64bit, which means you can go ahead and choose
+   the tessaract install setup for 64bit )
+
+3b. When Installing, choose "Install for anyone using this computer"
+
+3c. Check the box => "Additional script data (download)"
+
+4. Opencv => pip install opencv-python
+
+5. Numpy => pip install numpy
+
+--------------------------------------------------------------
+
+After installing all the dependencies above, you can go ahead to run the program.
+
+* make sure there is an id card image(frontside/backside) inside "input" folder
+
+* type "python ocr_colombian_id.py" on your terminal or command prompt
+
+* It will ask you to type in a number corresponding to the image(s) it detected
+  in the "input" folder.
+  Type in the corresponding number of your choice that follows the images name on 
+  your terminal.
+
+* The program will save the transcribed text from the ID-card image as 
+  "card_information"
